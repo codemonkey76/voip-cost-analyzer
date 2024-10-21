@@ -1,6 +1,10 @@
 [package]
-name = "cost-analyzer-core"
+name = "core"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+calamine = "0.26.1"
+chrono = "0.4.38"
+csv = "1.3.0"
+serde = { version = "1.0.210", features = ["derive"] }
